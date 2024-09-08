@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import {Inter} from 'next/font/google'
 import "./globals.css";
 import StarCanvas from "@/components/main/StarBackground";
+import Navbar from "@/components/main/Navbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,6 +35,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`} 
       >
+        <Navbar/>
         <StarCanvas/>
         {children}
       </body>
