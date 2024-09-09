@@ -4,6 +4,7 @@ import {Inter} from 'next/font/google'
 import "./globals.css";
 import StarCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
+import Footer from "@/components/main/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -38,6 +39,7 @@ export default function RootLayout({
         <Navbar/>
         <StarCanvas/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
