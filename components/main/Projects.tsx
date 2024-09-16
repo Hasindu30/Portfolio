@@ -15,25 +15,20 @@ const Projects = () => {
            <ProjectCard
            src="/Brandspark.jpg"
            title="AI Powered Brandspark"
-           description="Lorem Ipsum has been the industry's 
-           standard dummy text ever since the 1500s, when an 
-           unknown printer took a galley of type and scrambled it to "
+           description="Brandspark is an AI-powered platform for generating unique brand names, logos, and brand promotion tools for businesses effortlessly. "
            />
 
            <ProjectCard
            src="/Portfolio.png"
            title="Modern Next.js portfolio"
-           description="Lorem Ipsum has been the industry's 
-           standard dummy text ever since the 1500s, when an 
-           unknown printer took a galley of type and scrambled it to "
+           description="A modern Next.js portfolio highlights a developer's skills and projects, offering fast performance and responsive, dynamic design. "
            />
 
            <ProjectCard
            src="/Pos.png"
            title="POS Inventary System"
-           description="Lorem Ipsum has been the industry's 
-           standard dummy text ever since the 1500s, when an 
-           unknown printer took a galley of type and scrambled it to "
+           description="A Java-based POS system for bookshops manages inventory, 
+           processes sales, tracks customers, and generates reports for efficient operations.o "
            />
         </div>
 
@@ -42,25 +37,19 @@ const Projects = () => {
            <ProjectCard
            src="/Edusiy1.png"
            title="Edusiy College Web "
-           description="Lorem Ipsum has been the industry's 
-           standard dummy text ever since the 1500s, when an 
-           unknown printer took a galley of type and scrambled it to "
+           description="Edusiy College's responsive website, built with React, provides seamless navigation, course details, and student resources across devices."
            />
 
            <ProjectCard
            src="/Commerce.png"
            title="Stylify Shopping E-commerce"
-           description="Lorem Ipsum has been the industry's 
-           standard dummy text ever since the 1500s, when an 
-           unknown printer took a galley of type and scrambled it to "
+           description="Stylify Shopping is a MERN stack e-commerce platform offering seamless product browsing, secure checkout, and responsive design "
            />
 
            <ProjectCard
            src="/Prochat.png"
            title="Pro-Chat Real Chat App"
-           description="Lorem Ipsum has been the industry's 
-           standard dummy text ever since the 1500s, when an 
-           unknown printer took a galley of type and scrambled it to "
+           description="ProChat is a real-time chat app built with React and Firebase, offering instant messaging and user authentication."
            />
         </div>
     </div>
