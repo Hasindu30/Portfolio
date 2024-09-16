@@ -6,7 +6,7 @@ import{
     RxLinkedinLogo,
 } from "react-icons/rx";
 
-import {FaYoutube} from "react-icons/fa";
+import {FaDiscord, FaFacebook, FaYoutube} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -21,8 +21,8 @@ const Footer = () => {
                         </div>
                         <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                             
-                            <FaYoutube/>
-                            <span className='text-[15px] ml-[6px]'>Youtube</span>
+                            <FaDiscord/>
+                            <span className='text-[15px] ml-[6px]'>Discod</span>
                         </p>
                         <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                             
@@ -41,8 +41,8 @@ const Footer = () => {
                         </div>
                         <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                             
-                            <FaYoutube/>
-                            <span className='text-[15px] ml-[6px]'>Youtube</span>
+                            <FaFacebook/>
+                            <span className='text-[15px] ml-[6px]'>Facebook</span>
                         </p>
                         <p className='flex flex-row items-center my-[15px] cursor-pointer'>
                             

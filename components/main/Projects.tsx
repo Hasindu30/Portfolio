@@ -10,8 +10,8 @@ const Projects = () => {
         <h1 className='text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20'>
         My Projects
         </h1>
-        {/* First row of cards */}
-        <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10 '>
+        
+        <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10  '>
            <ProjectCard
            src="/Brandspark.jpg"
            title="AI Powered Brandspark"
@@ -32,7 +32,7 @@ const Projects = () => {
            />
         </div>
 
-        {/* Second row of cards */}
+        
         <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10 mt-10'>
            <ProjectCard
            src="/Edusiy1.png"
@@ -43,7 +43,7 @@ const Projects = () => {
            <ProjectCard
            src="/Commerce.png"
            title="Stylify Shopping E-commerce"
-           description="Stylify Shopping is a MERN stack e-commerce platform offering seamless product browsing, secure checkout, and responsive design "
+           description="Stylify Shopping is a MERN stack e-commerce platform offering seamless product browsing, secure checkout, and responsive design. "
            />
 
            <ProjectCard
