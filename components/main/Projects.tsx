@@ -11,7 +11,7 @@ const Projects = () => {
         My Projects
         </h1>
         
-        <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10  '>
+        <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10   '>
            <ProjectCard
            src="/Brandspark.jpg"
            title="AI Powered Brandspark"
