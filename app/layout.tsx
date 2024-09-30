@@ -1,22 +1,10 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import {Inter} from 'next/font/google'
+import { Inter } from "next/font/google"; // Kept this since it's being used
 import "./globals.css";
 import StarCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
-  
 const inter = Inter({
   subsets: ["latin"],
 });
@@ -36,10 +24,10 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`} 
       >
-        <Navbar/>
-        <StarCanvas/>
+        <Navbar />
+        <StarCanvas />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

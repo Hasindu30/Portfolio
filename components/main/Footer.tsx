@@ -1,8 +1,7 @@
 import React from 'react'
 import{
-    RxDiscordLogo,
+    
     RxGithubLogo,
-    RxTwitterLogo,
     RxLinkedinLogo,
 } from "react-icons/rx";
 
