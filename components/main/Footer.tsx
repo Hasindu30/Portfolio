@@ -5,7 +5,7 @@ import{
     RxLinkedinLogo,
 } from "react-icons/rx";
 
-import {FaDiscord, FaFacebook, FaYoutube} from "react-icons/fa";
+import {FaDiscord, FaFacebook} from "react-icons/fa";
 
 const Footer = () => {
   return (
