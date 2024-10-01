@@ -2,7 +2,6 @@
 import React, { useState, useRef, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Points, PointMaterial } from '@react-three/drei';
-// @ts-expect-error
 import * as random from 'maath/random/dist/maath-random.esm';
 
 const StarBackground = (props: any) => {
@@ -21,10 +20,10 @@ const StarBackground = (props: any) => {
       <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
-          color="#fff" // Corrected typo '$fff' to '#fff'
+          color="#fff" 
           size={0.002}
           sizeAttenuation={true}
-          depthWrite={false} // Corrected typo 'dethWrite' to 'depthWrite'
+          depthWrite={false} 
         />
       </Points>
     </group>
