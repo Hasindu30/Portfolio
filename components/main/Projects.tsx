@@ -20,15 +20,15 @@ const Projects = () => {
 
            <ProjectCard
            src="/Portfolio.png"
-           title="Modern Next.js portfolio"
-           description="A modern Next.js portfolio highlights a developer's skills and projects, offering fast performance and responsive, dynamic design. "
+           title="Vibify Music Web app"
+           description="Vibify is a MERN-based music app that lets users add, play, and organize songs into playlists, offering a seamless, personalized music experience across devices "
            />
 
            <ProjectCard
            src="/Pos.png"
            title="POS Inventary System"
            description="A Java-based POS system for bookshops manages inventory, 
-           processes sales, tracks customers, and generates reports for efficient operations.o "
+           processes sales, tracks customers, and generates reports for efficient operations. "
            />
         </div>
 
